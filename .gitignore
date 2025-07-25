@@ -1,0 +1,20 @@
+# System folders
+*.log
+.DS_Store
+node_modules/
+.vscode/
+*.lnk
+*.tmp
+*.rar
+*.zip
+AppData/
+Contacts/
+Documents/
+Downloads/
+Favorites/
+Music/
+Pictures/
+Videos/
+*.docx
+*.pdf
+*.exe
