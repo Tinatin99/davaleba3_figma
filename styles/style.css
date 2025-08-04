@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'GilroyBold';
+  src: url('./fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+    max-width: 1280px;
+    width:100% ;
+    height: 5000px;
+    font-family: 'GilroyBold', sans-serif;
+    color: #ffffff;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    margin-top: 40px;
+    /* დავამატე ეს ჰედერის გასაფიქსად */
+    position: fixed;
+    max-width: 1280PX;
+    width: 100%;
+    z-index: 1;
+    /* ––– */
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+   width: 78;
+    height: 35;
+    top: 40px;
+    left: 80px;
+    color: #FFFFFF;
+
+
+}
+.list__link__item{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-flex;
+}
+.header__nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 478px;
+    width: 100%;
+
+}
+
+.list__item {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list--menu {
+    position: relative;
+    display: inline-block;
+}
+
+
+.header__dropdown-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 28px;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.dropdown__link {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+ .dropdown__0{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    display: none;
+ }
+.list__item:hover {
+    border: 2px solid blue;
+    border-radius: 2px;
+    
+    }
+
+.header__logo:hover{
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+
+.dropdown__0:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 28px;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+
+
+
+
+.header__nav__list:hover {
+    border: 2px solid blue;
+    border-radius: 2px;
+    
+
+}
+
+.fa-bag-shopping{
+    width: 34;
+    height: 34;
+    top: 41px;
+    left: 1326px;
+    opacity: 1;
+
+}
+
+.fa-circle-0{
+width: 20;
+height: 25 px;
+top: 44.18px;
+left: 1344px;
+opacity: 1;
+
+
+
+}
+/* .hero__wrapper {
+    background: url(https://postimg.cc/sGgbTDKy)  no-repeat;
+    position: relative;
+    height: 1084px;
+
+} */
+
+/* .hero__content {
+    position: absolute;
+} */
+
+/* .hero__content {
+    position: absolute;   
+    text-align: center;
+    color: #FFFFFF;
+    top: 200px;
+    width: 861;
+    margin: 0 auto;
+    
+} */
+
+.list__link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.hero__wrapper {
+  background: url('https://i.postimg.cc/HJKy457H/your-image.jpg') no-repeat center/cover;
+
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px; /* რომ ჰედერი არ გადაფაროს */
+}
+
+.hero__content {
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+/* 
+h1{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -1%;
+    
+}
+p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 20px;
+} */
+ h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+form input[type="search"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px 20px;
+  border-radius: 50%px;
+  border: none;
+  font-size: 16px;
+}
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: -50px; /* Adjust as needed */
+}
+
+
+
+.main_container{
+    max-width: 1280px;
+    width: 400px;
+    display: flex;
+    justify-content:space-between;     
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 30px;
+}
+
+
+.main__dropdown-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 28px;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.main__nav:hover:hover {
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+.main__nav__list:hover {
+    border: 2px solid blue;
+    border-radius: 2px;
+}

@@ -1,34 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <title>Panto - Minimalist Furniture</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior Design</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+  </head>
+   <body>
+    <header class="header">
+
+      <div class="container">
+
+        <nav class="header__nav">
+
+          <a class="header__logo" href="index.html">Panto</a>
+
+          <ul class="header__nav__list">
+
+            <li class="list__item list--menu">
 
 
 
-<body style="font-family: 'Poppins', sans-serif; margin: 0; padding: 0;"></body>
-    
-    <section>
-<section class="hero">
-  <div class="overlay">
-    <div class="hero-text">
-      <h1>Make Your Interior More Minimalistic & Modern</h1>
-      <p>Turn your room with Panto into a lot more minimalist and modern with ease and speed.</p>
-      <button>Discover Collection</button>
-    </div>
-  </div>
-</section>
-
-    </section>
+              <a class="list__link__item" href="index.html"> Furniture <span>  ✓  </span></a>
 
 
+              <!-- dropdown -->
+              <ul class="header__dropdown-menu">
+
+                
+                 <li class="dropdown__item">
+                  <a href="index.html"><i class="fa-solid fa-comment-check"></i></a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="index.html">Sofa</a>
+
+              </ul>
+
+
+              <!-- dropdown end -->
+            </li>
+
+
+
+
+
+            <li class="list__item">
+              <a class="list__link" href="index.html"> Shop</a>
+            </li>
+
+
+
+            <li class="list__item">
+              <a class="list__link" href="index.html">About Us</a>
+            </li>
+
+
+
+            <li class="list__item">
+              <a class="list__link" href="index.html">Contact</a>
+            </li>
+
+            
+
+          </ul> 
+
+
+          <ul>
+            <li class="list__item">
+             
+
+             <a class="dropdown__link dropdown_0" href="index.html"><i class="fa-solid fa-bag-shopping"></i></a>
+             <a class="dropdown_0" href="index.html"><i class="fa-solid fa-circle-0"></i></a>
+
+             </ul>
+                
+
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__wrapper">
+          <div class="hero__content">
+            <h1>Make your interior more
+              minimalistic & modern</h1>
+            <p>
+             Turn your room with panto into a lot more minimalist and modern with ease and speed
+            </p>
+            <form action="index.html" class="hero__search">
+              <label for="search" class="visually-hidden">Search</label>
+              <input type="search" id="search" placeholder="Search for products..." />
+              <button type="submit" class="hero__search__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section>
+         <div class="main_container">
+
+           
+
+              <a class="main__logo" href="index.html">Why Choosing Us</a>
+
+              <ul class="main__nav__list">
+
+                 <li class="main_dropdown__item">
+                  <a href="index.html">Luxury facilities</a>
+                </li>
+
+                <li class="main_dropdown__item">
+                  <a href="index.html">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</a>
+
+              </ul>
+
+
+              <ul>
+
+                <li class="main_dropdown__item">
+                  <a href="index.html">Affordable Price</i></a>
+                </li>
+
+                <li class="main_dropdown__item">
+                  <a href="index.html">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.</a>
+              <!-- dropdown end -->
+                </li>
+
+              </ul>
+              <ul>
+               <li class="list__item">             
+
+               <a class="dropdown__link dropdown_0" href="index.html"><i class="fa-solid fa-bag-shopping"></  i></a>
+                <a class="dropdown_0" href="index.html"><i class="fa-solid fa-circle-0"></i></a>
+
+               </ul>
+        
+      </div>
+      </section>
+
+      <section class="main__section">
+        <div class="main__container">
+          <h2>Our Products</h2>
+          <div class="main__products">
+            <div class="product__item">
+              <img src="./images/product1.jpg" alt="Product 1" />
+              <h3>Modern Sofa</h3>
+              <p>$499.99</p>
+            </div>
+            <div class="product__item">
+              <img src="./images/product2.jpg" alt="Product 2" />
+              <h3>Elegant Chair</h3>
+              <p>$299.99</p>
+            </div>
+            <div class="product__item">
+              <img src="./images/product3.jpg" alt="Product 3" />
+              <h3>Stylish Table</h3>
+              <p>$399.99</p>
+            </div>
+          </div>
+        </div>
+    </main>
     <footer></footer>
- 
- 
-
-</body>
+  </body>
 </html>
