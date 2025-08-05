@@ -185,7 +185,7 @@ opacity: 1;
     color: #FFFFFF;
 }
 .hero__wrapper {
-  background: url('https://i.postimg.cc/HJKy457H/your-image.jpg') no-repeat center/cover;
+  background: url('/images/hero.jpg') no-repeat center/cover;
 
   position: relative;
   height: 100vh;
@@ -254,34 +254,75 @@ form button {
 }
 
 
+.why-us {
+  padding: 80px 0;
+  background-color: #f3f3f3; /* სურვილისამებრ */
+  color: #000;
+}
 
 .main_container{
-    max-width: 1280px;
-    width: 400px;
+    max-width: 1440px;
+    width: 100%;
+    max-height: 1084px;
+    height: 100%;
     display: flex;
-    justify-content:space-between;     
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+   
     padding: 60px;
     gap: 30px;
 }
 
 
-.main__dropdown-menu {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 28px;
-    gap: 10px;
-    background-color: #ffffff;
-    padding: 10px;
+.main__title {
+    width: 242px;
+    height: 104px;
+    
+    font-weight: 400;
+    font-size: 42px;
+    text-align:start;
+    line-height: 100%;
 }
-.main__nav:hover:hover {
+
+
+.main__feature {
+  max-width: 400px;
+  width: 100%;
+  text-align:start;
+  gap: 50px;
+}
+
+.main__feature h3{
+    width: 172px;
+    height: 30px;
+    top: 1204px;
+    opacity: 90%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+  
+}
+
+
+.main__feature p {
+   width: 284px;
+    height: 90px;
+    top: 1254px;
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 185%;
+}
+.par1, .main__feature_1 {
+    left: 405px;
+}
+.par2, .main__feature_2{
+    left: 730px;
+}
+.par3, .main__feature_3{
+    left: 1055px
+}
+.ain__nav__list:hover {
     border: 2px solid blue;
     border-radius: 2px;
 }
-.main__nav__list:hover {
-    border: 2px solid blue;
-    border-radius: 2px;
-}
+
