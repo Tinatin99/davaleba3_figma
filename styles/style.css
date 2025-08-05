@@ -4,11 +4,15 @@
   font-weight: bold;
   font-style: normal;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 body {
     max-width: 1280px;
     width:100% ;
-    height: 5000px;
+    height:100%;
     font-family: 'GilroyBold', sans-serif;
     color: #ffffff;
 }
@@ -19,7 +23,7 @@ html, body {
 }
 
 .container {
-    max-width: 1280px;
+    max-width:1280px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -29,7 +33,7 @@ header {
     margin-top: 40px;
     /* დავამატე ეს ჰედერის გასაფიქსად */
     position: fixed;
-    max-width: 1280PX;
+    max-width: 1280px;
     width: 100%;
     z-index: 1;
     /* ––– */
@@ -261,31 +265,31 @@ form button {
 }
 
 .main_container{
-    max-width: 1440px;
+    max-width: 1280px;
     width: 100%;
     max-height: 1084px;
     height: 100%;
     display: flex;
     justify-content: space-between;
    
-    padding: 60px;
+    padding: 20px;
     gap: 30px;
 }
 
 
 .main__title {
-    width: 242px;
-    height: 104px;
-    
-    font-weight: 400;
-    font-size: 42px;
+      
+    font: weight 400px;;
+    font-size:42px;
     text-align:start;
-    line-height: 100%;
+    line-height: 120%;
 }
 
 
+
+
+
 .main__feature {
-  max-width: 400px;
   width: 100%;
   text-align:start;
   gap: 50px;
@@ -312,17 +316,57 @@ form button {
     font-size: 16px;
     line-height: 185%;
 }
-.par1, .main__feature_1 {
+
+
+.par1, 
+.fa-arrow-right
+ .main__feature_1 {
     left: 405px;
 }
-.par2, .main__feature_2{
+
+
+
+.par2,
+ .fa-arrow-right
+ .main__feature_2{
     left: 730px;
 }
-.par3, .main__feature_3{
+
+
+
+.par3,
+.fa-arrow-right
+ .main__feature_3{
     left: 1055px
 }
-.ain__nav__list:hover {
-    border: 2px solid blue;
-    border-radius: 2px;
+
+
+.main__title:hover,
+.fa-arrow-right:hover,
+.main__feature_1:hover,
+.main__feature_2:hover,
+.main__feature_3:hover,
+.par1:hover,
+.par2:hover,
+.par3:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  color: inherit;
 }
+.main__link{
+  width: 121px;
+  height: 26 px;
+  opacity: 1;
+  top: 1358px;   
+}
+.main__info:hover,
+.fa-solid:hover,
+.main__link:hover{
+    border: 2px solid;
+    border-radius: 2px;
+    color: blue;
+}
+
 
