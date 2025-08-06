@@ -6,14 +6,21 @@
     <title>Interior Design</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=YourFontName&display=swap" rel="stylesheet">
+
+        
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
 
 
   </head>
+
+
    <body>
     <header class="header">
 
@@ -23,39 +30,27 @@
 
           <a class="header__logo" href="index.html">Panto</a>
 
+
+
           <ul class="header__nav__list">
-
             <li class="list__item list--menu">
-
-
-
-              <a class="list__link__item" href="index.html"> Furniture <span>  ✓  </span></a>
-
-
+              <a class="list__link__item" href="index.html"> Furniture </a>
+              
               <!-- dropdown -->
-              <ul class="header__dropdown-menu">
-
-                
+              <ul class="header__dropdown-menu">                
                  <li class="dropdown__item">
-                  <a href="index.html"><i class="fa-solid fa-comment-check"></i></a>
+                  <a href="index.html"><i class="fa-solid fa-comment-check"> </i>✓</a>
                 </li>
-                <li class="dropdown__item">
-                  <a href="index.html">Sofa</a>
-
-              </ul>
+              </ul>               
+            </li>
+             
 
 
               <!-- dropdown end -->
-            </li>
-
-
-
-
-
+        
             <li class="list__item">
               <a class="list__link" href="index.html"> Shop</a>
             </li>
-
 
 
             <li class="list__item">
@@ -63,25 +58,22 @@
             </li>
 
 
-
             <li class="list__item">
               <a class="list__link" href="index.html">Contact</a>
-            </li>
-
-            
+            </li>           
 
           </ul> 
 
+        
+        <ul>
+  <li class="list__item icon-wrapper">
+    <a class="dropdown__link" href="index.html">
+      <i class="fa-solid fa-bag-shopping bag-icon">.</i>
+      <i class="fa-solid fa-circle-dot dot-icon"></i>
+    </a>
+  </li>
+</ul>
 
-          <ul>
-            <li class="list__item">
-             
-
-             <a class="dropdown__link dropdown_0" href="index.html"><i class="fa-solid fa-bag-shopping"></i></a>
-             <a class="dropdown_0" href="index.html"><i class="fa-solid fa-circle-0"></i></a>
-
-             </ul>
-                
 
         </nav>
       </div>
@@ -89,23 +81,23 @@
 
     <main>
       <section class="hero">
-        <div class="hero__wrapper">
-          <div class="hero__content">
-            <h1>Make your interior more
-              minimalistic & modern</h1>
-            <p>
-             Turn your room with panto into a lot more minimalist and modern with ease and speed
-            </p>
-            <form action="index.html" class="hero__search">
-              <label for="search" class="visually-hidden">Search</label>
-              <input type="search" id="search" placeholder="Search for products..." />
-              <button type="submit" class="hero__search__btn">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+  <div class="hero__wrapper">
+    <div class="hero__content">
+      <h1>Make your interior more minimalistic & modern</h1>
+      <p>
+        Turn your room with panto into a lot more minimalist and modern with ease and speed
+      </p>
+      <!--<form action="index.html" class="hero__search">
+  <label for="search" class="visually-hidden">Search</label>
+  <input type="search" id="search" name="query" placeholder="Search for products..." />
+  <button type="submit">
+    <i class="fa fa-search"></i>
+  </button>
+</form>-->
+ <!-- ვერ გავწერე სწორად, იქნებ გამასწორებინოთ -->
+    </div>
+  </div>
+</section>
 
 
       <section class="why-us">
@@ -139,9 +131,137 @@
 
 
 
-    
+
+      <section class="best">
+        <div class="best__container">
+          <h2 class="best__title">Best Selling Product</h2>
+
+         <div class="best__products--item">
+          <div class="best__content">
+            <div class="best__item">
+              <span class="best__title--name">Chair</span>
+            </div>
+          </div>
+
+
+          <div class="best__content">
+            <div class="best__item">
+              <span class="best__title--name">Beds</span>
+            </div>
+          </div>
+
+
+          <div class="best__content">
+            <div class="best__item">
+              <span class="best__title--name">Sofa</span>
+            </div>
+          </div>
+
+
+          <div class="best__content" >
+            <div class="best__item">
+              <span class="best__title--name">Lamp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="products">
+
+
+            
+           <div class="best__products">
+            <div class="best__card">
+              <img src="./images/chair-01.png" alt="chair-01">
+              <span class="best_price">chair</span>
+              <h3 class="best__name">Sakarias Armchair</h3>
+               <ul class="best__stars">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <img src="/images/Group 174 (1).png" alt="chair">
+              <!-- <button type="button">$392 <i class="fa-solid fa-circle-plus"></i></button>             -->
+
+            </div>
+          </div>
+
+
+           <div class="best__products">
+            <div class="best__card">
+              <img src="./images/chair-02.jpg" alt="chair-02">
+              <span class="best_price">chair</span>
+              <h3 class="best__name">Baltsar Chair</h3>
+              <ul class="best__stars">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <img src="/images/Group 174 (2).png" alt="chair">
+              <!-- <button type="button">$299 <i class="fa-solid fa-circle-plus"></i></button>             -->
+
+            </div>
+          </div>
+
+
+
+           <div class="best__products">
+            <div class="best__card">
+              <img src="/images/chair-03.jpg" alt="chair-3">
+              <span class="best__price">chair</span>
+              <h3 class="best__name">Anjay Chair</h3>
+               <ul class="best__stars">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <img src="/images/Group 174 (3).png" alt="chair">
+              <!-- <button type="button">$519 <i class="fa-solid fa-circle-plus"></i></button>             -->
+
+            </div>
+          </div>
+        
+
+
+
+           <div class="best__products">
+            <div class="best__card">
+              <img src="/images/chair-04.jpg" alt="chair-4">
+              <span class="best__price">chair</span>
+              <h3 class="best__name">Nyantuy Chair</h3>
+               <ul class="best__stars">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <img src="/images/Group 174.png" alt="chair">
+              <!-- <button type="button">$921 <i class="fa-solid fa-circle-plus"></i></button>   -->
+
+
+            </div>
+          </div>
+         </div>
+
+
+
+
+        </div>
+      </section>
+
 
     </main>
-    <footer></footer>
+    <footer>
+
+
+
+    </footer>
   </body>
 </html>

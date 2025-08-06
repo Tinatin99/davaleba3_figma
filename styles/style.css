@@ -144,45 +144,24 @@ header {
 
 }
 
-.fa-bag-shopping{
-    width: 34;
-    height: 34;
-    top: 41px;
-    left: 1326px;
-    opacity: 1;
 
+.icon-wrapper {
+  position: relative;
 }
 
-.fa-circle-0{
-width: 20;
-height: 25 px;
-top: 44.18px;
-left: 1344px;
-opacity: 1;
-
-
-
+.bag-icon {
+  color: white;
+  font-size: 34px; 
+  right: 20px;
 }
-/* .hero__wrapper {
-    background: url(https://postimg.cc/sGgbTDKy)  no-repeat;
-    position: relative;
-    height: 1084px;
 
-} */
+.dot-icon {
+  position: absolute;
+  top: -1px; 
+  right: -1px; 
+  color: orangered;
+  font-size: 22px; }
 
-/* .hero__content {
-    position: absolute;
-} */
-
-/* .hero__content {
-    position: absolute;   
-    text-align: center;
-    color: #FFFFFF;
-    top: 200px;
-    width: 861;
-    margin: 0 auto;
-    
-} */
 
 .list__link {
     text-decoration: none;
@@ -196,7 +175,7 @@ opacity: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px; /* რომ ჰედერი არ გადაფაროს */
+  padding-top: 100px;
 }
 
 .hero__content {
@@ -207,20 +186,7 @@ opacity: 1;
 }
 
 
-/* 
-h1{
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 130%;
-    letter-spacing: -1%;
-    
-}
-p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 150%;
-    margin-top: 20px;
-} */
+
  h1 {
   font-size: 72px;
   font-weight: 600;
@@ -243,10 +209,12 @@ form input[type="search"] {
   width: 100%;
   max-width: 400px;
   padding: 15px 20px;
-  border-radius: 50%px;
+  border-radius: 50px; 
   border: none;
   font-size: 16px;
 }
+
+
 form button {
   background-color: #007bff;
   color: white;
@@ -254,13 +222,35 @@ form button {
   padding: 12px 20px;
   border-radius: 50%;
   cursor: pointer;
-  margin-left: -50px; /* Adjust as needed */
+  margin-left: -50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .why-us {
   padding: 80px 0;
-  background-color: #f3f3f3; /* სურვილისამებრ */
+  background-color: #f7f7f7; 
   color: #000;
 }
 
@@ -278,11 +268,10 @@ form button {
 
 
 .main__title {
-      
-    font: weight 400px;;
-    font-size:42px;
-    text-align:start;
-    line-height: 120%;
+  font-weight: 400;
+  font-size: 42px;
+  text-align: start;
+  line-height: 120%;
 }
 
 
@@ -342,7 +331,7 @@ form button {
 
 
 .main__title:hover,
-.fa-arrow-right:hover,
+
 .main__feature_1:hover,
 .main__feature_2:hover,
 .main__feature_3:hover,
@@ -350,7 +339,7 @@ form button {
 .par2:hover,
 .par3:hover {
   text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration-color:#007bff;
   text-underline-offset: 4px;
   text-decoration-thickness: 2px;
   color: inherit;
@@ -359,14 +348,239 @@ form button {
   width: 121px;
   height: 26 px;
   opacity: 1;
-  top: 1358px;   
+  top: 1358px;  
+  color: orangered; 
 }
+
+
 .main__info:hover,
-.fa-solid:hover,
 .main__link:hover{
-    border: 2px solid;
+    border: 2px solid #007bff;
     border-radius: 2px;
-    color: blue;
+    
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* სექცია Best */
+
+.best{
+width: 1440;
+height: 906;
+opacity: 1;
+top: 1504px;
+background: #f3f3f3;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 80px 20px;
+}
+
+.best__container{
+  max-width: 1280px;
+  width: 100%;
+  color: #000;
+  text-align: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.best__title{
+width: 389px;
+height: 52px;
+opacity: 1;
+top: 1554px;
+left: 525px;
+font-weight: 400;
+font-style: ☞;
+font-size: 42px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 30px;
+}
+
+.best__content{
+  width: 348px;
+height: 57px;
+opacity: 1;
+top: 1638px;
+left: 546px;
+padding: 6px;
+background: #EEEEEE;
+display: flex;
+justify-content: center;
+text-align: center;
+border: 2px solid transparent;
+transition: border 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+.best__content:hover {
+  border: 2px solid #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  background-color: #EEEEEE; 
+}
+
+.best__item{
+
+
+}
+
+.best__title--name{
+
+  
+  border-radius: 4px;
+  padding: 6px;
+  background: #EEEEEE;
+
+}
+
+
+.best__products--item{
+  display: flex;
+
+   gap: 20px;
+  flex-wrap: wrap; 
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px; 
+}
+
+
+
+.products{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.best__products{
+
+
+}
+
+.best__card {
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background-color: #fff;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.best__card:hover {
+  border: 2px solid #007bff;
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.1);
+}
+
+.best__card{
+
+}
+
+.best__price{
+  width: 225.4374542236328;
+height: 48.7430419921875;
+angle: 0 deg;
+opacity: 1;
+top: 2190.84px;
+left: 142.33px;
+border-radius: 31px;
+background: #0D1B39;
+
+
+}
+
+.best__name{
+
+}
+
+
+.best__stars{
+ /* width: 103.58137512207031;
+height: 18.27880859375;
+angle: 0 deg;
+opacity: 1;
+top: 2136px;
+left: 142.33px;
+background: #000000; */
+
+
+}
+
+.fa-star{
+
+
+
+color:orange;
+display: flex;
+justify-content: center;
+
+
+
+}
+
+/* .fa-circle-plus{
+width: 225.4374542236328;
+height: 48.7430419921875;
+angle: 0 deg;
+opacity: 1;
+top: 2190.84px;
+left: 142.33px;
+border-radius: 31px;
+color: #0D1B39;
+} */
+
+
+.best_star:hover,
+.best__price:hover,
+.best__stars:hover,
+.best_name:hover{
+   border: 2px solid #007bff;
+    border-radius: 2px;
+}
+
+img:hover,
+button:hover{
+     border: 2px solid #007bff;
+    border-radius: 2px;
+}
+
+.be
+
+
+
+
+
+
+
 
 
