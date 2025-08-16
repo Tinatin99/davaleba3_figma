@@ -1,42 +1,34 @@
 @font-face {
   font-family: 'GilroyBold';
-  src: url('./fonts/Gilroy-Bold.ttf') format('truetype');
+  src: url('/fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
+
 
 body {
-    max-width: 1280px;
     width:100% ;
     height:100%;
     font-family: 'GilroyBold', sans-serif;
     color: #ffffff;
 }
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
+
 
 .container {
     max-width:1280px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+   
 }
 
 header {
+   width: 1280px;
     margin-top: 40px;
-    /* დავამატე ეს ჰედერის გასაფიქსად */
     position: fixed;
-    max-width: 1280px;
     width: 100%;
     z-index: 1;
-    /* ––– */
+
 }
 
 .header__nav {
@@ -46,8 +38,8 @@ header {
 }
 
 .header__logo {
-   width: 78;
-    height: 35;
+   width: 78px;
+    height: 35px;
     top: 40px;
     left: 80px;
     color: #FFFFFF;
@@ -87,7 +79,7 @@ header {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 28px;
+  
     gap: 10px;
     background-color: #ffffff;
     padding: 10px;
@@ -167,15 +159,25 @@ header {
     text-decoration: none;
     color: #FFFFFF;
 }
+/* .hero__wrapper {
+  background: url('/images/hero.jpg') no-repeat center/cover;
+  position: relative;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+} */
+
+
 .hero__wrapper {
   background: url('/images/hero.jpg') no-repeat center/cover;
-
   position: relative;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
 .hero__content {
@@ -191,7 +193,7 @@ header {
   font-size: 72px;
   font-weight: 600;
   line-height: 110%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 p {
@@ -209,7 +211,7 @@ form input[type="search"] {
   width: 100%;
   max-width: 400px;
   padding: 15px 20px;
-  border-radius: 50px; 
+  border-radius:50%; 
   border: none;
   font-size: 16px;
 }
@@ -255,9 +257,9 @@ form button {
 }
 
 .main_container{
-    max-width: 1280px;
+    
     width: 100%;
-    max-height: 1084px;
+    
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -279,15 +281,13 @@ form button {
 
 
 .main__feature {
-  width: 100%;
+  
   text-align:start;
   gap: 50px;
 }
 
 .main__feature h3{
-    width: 172px;
-    height: 30px;
-    top: 1204px;
+  
     opacity: 90%;
     font-weight: 400;
     font-size: 24px;
@@ -297,9 +297,7 @@ form button {
 
 
 .main__feature p {
-   width: 284px;
-    height: 90px;
-    top: 1254px;
+  
     opacity: 80%;
     font-weight: 400;
     font-size: 16px;
@@ -387,10 +385,7 @@ form button {
 /* სექცია Best */
 
 .best{
-width: 1440;
-height: 906;
-opacity: 1;
-top: 1504px;
+
 background: #f3f3f3;
 display: flex;
 flex-direction: column;
@@ -399,7 +394,7 @@ text-align: center;
 }
 
 .best__container{
-  max-width: 1280px;
+ 
   width: 100%;
   color: #000;
   text-align: center;
@@ -408,11 +403,9 @@ text-align: center;
 }
 
 .best__title{
-width: 389px;
-height: 52px;
+
 opacity: 1;
-top: 1554px;
-left: 525px;
+
 font-weight: 400;
 font-size: 42px;
 line-height: 100%;
@@ -420,9 +413,7 @@ margin: 0 auto;
 }
 
 .best__content{
-  width: 348px;
-height: 57px;
-padding: 6px;
+
 background: #EEEEEE;
 display: flex;
 justify-content: center;
@@ -493,12 +484,7 @@ text-align: center;
 
 
 .best__price{
- width: 42.65016174316406;
-height: 19.801856994628906;
-opacity: 1;
-top: 2078.12px;
-left: 142.33px;
-font-family: Inter;
+
 font-weight: 400;
 font-size: 16.76px;
 line-height: 100%;
@@ -507,16 +493,10 @@ color: #8D8D8D;
 }
 
 .best__name{
-  width: 188.87925720214844;
-height: 25.894739151000977;
-angle: 0 deg;
-opacity: 1;
-top: 2104.02px;
-left: 142.33px;
-font-family: Inter;
+
 font-weight: 600;
-font-size: 21.33px;
-leading-trim: NONE;
+font-size: 22px;
+
 line-height: 100%;
 letter-spacing: 0%;
 text-transform: capitalize;
@@ -527,9 +507,7 @@ color: #0D1B39;
 
 
 .best__stars{
-width: 103.58137512207031;
-height: 18.27880859375;
-angle: 0 deg;
+
 opacity: 1;
 top: 2136px;
 left: 142.33px;
@@ -599,11 +577,10 @@ button:hover{
 }
 
 img{
-width: 217.89599609375;
-height: 255.9010467529297;
+width: 218px;
+height: 255px;
 opacity: 1;
-top: 1775px;
-left: 145.37px;
+
 
 }
 
