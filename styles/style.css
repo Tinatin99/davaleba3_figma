@@ -12,12 +12,12 @@ body {
     font-family: 'GilroyBold', sans-serif;
     color: #ffffff;
 }
-body {
+/* body {
   background-image: url("/images/Rectangle\ 1441@2x.jpg"); 
   background-size: cover;      
   background-repeat: no-repeat; 
   background-position: center;  
-}
+} */
 
 
 .container {
@@ -177,7 +177,7 @@ header {
 
 
 .hero__wrapper {
-  background: url('/images/hero.jpg') no-repeat center/cover;
+  background: url('/images/Rectangle\ 1441@2x.jpg') no-repeat center/cover;
   position: relative;
   height: 100vh;
   display: flex;
