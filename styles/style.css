@@ -165,26 +165,18 @@ header {
     text-decoration: none;
     color: #FFFFFF;
 }
-/* .hero__wrapper {
-  background: url('/images/hero.jpg') no-repeat center/cover;
+.hero__wrapper {
+  background: url('../images/hero.jpg') no-repeat center/cover;
   position: relative;
   height: 150vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 10px;
-} */
-
-
-.hero__wrapper {
-  background: url('../images/hero.jpg') no-repeat center/cover;
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 10px;
 }
+
+
+
 
 .hero__content {
   text-align: center;
