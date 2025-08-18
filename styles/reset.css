@@ -41,11 +41,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a{
-    text-decoration: none;
-}
 
 
 *{
     box-sizing: border-box;
+}
+/* ეს ელემენტები ფონტთან დაკავშირებულ მემკვიდრეობას არ იღებენ დანარჩენი ელემენტებისგან განსხვავებით, ამიტომ გავუწეროთ რესეტ სტილები რომ 
+ყოველ ჯერზე მათთვის არ მოგვიწიოს css ში ამ სტილების გაწერა */
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	border: none;
+	outline: none;
 }
