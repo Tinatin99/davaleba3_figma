@@ -688,9 +688,11 @@ text-align: center;
 
 
 .best__stars{
+  display: flex;
   text-align: start;
   font-weight: 400;
   color: #000000;
+  flex-direction: row;
 }
 
 .fa-star{
@@ -763,8 +765,8 @@ img{
 }
 
 .dolar {
-  font-size: 12px;          /* პატარა ზომა */
-  vertical-align: super;    /* ოდნავ მაღლა აწეული */
+  font-size: 12px;          
+  vertical-align: super;    
   margin-right: 2px;
 }
 
@@ -777,8 +779,8 @@ img{
   border: none;
   background: none;
   border-radius: 50%;
-  background-color:#0D1B39; /* ლურჯი წრე */
-  color: #fff;               /* თეთრი პლიუსი */
+  background-color:#0D1B39; 
+  color: #fff;              
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
