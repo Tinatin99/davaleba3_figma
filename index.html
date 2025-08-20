@@ -38,7 +38,7 @@
               <!-- dropdown -->
               <ul class="header__dropdown-menu">                
                  <li class="dropdown__item">
-                  <a href="index.html"><i class="fa-solid fa-comment-check"> </i>✓</a>
+                 <a href="index.html"> <i class="fa-sharp-duotone fa-solid fa-circle-chevron-down"></i></a>
                   </li>
                 </ul>               
               </li>
@@ -85,7 +85,8 @@
       <section class="hero">
         <div class="hero__wrapper">
           <div class="hero__content">
-            <h1>Make your interior more minimalistic & modern</h1>
+            <h1 class="multiline">Make your interior more 
+               minimalistic & modern</h1>
             <p class="multiline">
             Turn your room with panto into a lot more minimalist
             and modern with ease and speed
@@ -93,14 +94,12 @@
 
      
             <form class="hero__search" action="#" method="get">
-              <label for="search" class="visually-hidden">Search</label>              
+              <label for="search" class="visually-hidden"></label>              
               <input
                 type="search"
                 id="search"
                 placeholder="Search furniture" />
-              <button type="submit" class="hero__search__btn">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
+              <button  type="submit" class="hero__search__btn">                <i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
           </div>
         </div>
@@ -108,33 +107,45 @@
 
 
       <section class="why-us">
-        <div class="main_container">
-          <h2 class="main__title">Why <br>Choosing Us</h2>
-
+        <!-- <div class="why-us__container"> -->
+        <div class="main__container">
+          <h2 class="main__title multiline">Why 
+            Choosing Us</h2>
+      
+        <div class="why-us__features">
+         
         <div class="main__feature">
-          <h3 class="main__feature_1">Luxury facilities</h3>
-           <p class="par1">The advantage of hiring a workspace with us is that gives you comfortable service and all-around facilities.</p>
-           <a class="main__link main__info" href="index.html">More Info <i class="fa-solid fa-arrow-right"></i></a>
+          <h3 class="main__feature_title">Luxury facilities</h3>
+           <p class="par">The advantage of hiring a workspace with us is that gives you comfortable service and all-around facilities.</p>
+          <p class="main__link main__info" href="index.html">More Info <img class="vector" src="images/Vector.png" alt=""></i></p>
+
         </div>
 
         <div class="main__feature">
-         <h3 class="main__feature_2">Affordable Price</h3>
-           <p class="par2">You can get a workspace of the highest quality at an affordable price and still enjoy the facilities that are only here.</p>
-          <a class="main__link main__info" href="index.html">More Info <i class="fa-solid fa-arrow-right"></i></a>
+         <h3 class="main__feature_title">Affordable Price</h3>
+          <p class="par">You can get a workspace of the highest quality at an affordable price and still enjoy the facilities that are only here.</p>
+         <p class="main__link main__info" href="index.html">More Info <img class="vector" src="images/Vector.png" alt=""></i></p>
+
 
 
         </div>
 
         <div class="main__feature">
-         <h3 class="main__feature_3">Many Choices</h3>
-           <p class="par3">We provide many unique work space choices so that you can choose the workspace to your liking.</p>
-          <a class="main__link main__info" href="index.html">More Info <i class="fa-solid fa-arrow-right"></i></a>
+         <h3 class="main__feature_title">Many Choices</h3>
+           <p class="par">We provide many unique work space choices so that you can choose the workspace to your liking.</p>
+          <p class="main__link main__info" href="index.html">More Info <img class="vector" src="images/Vector.png" alt=""></i></p>
+
+        </div>
+
+
 
         </div>
 
 
 
        </div>
+      
+       <!-- </div> -->
       </section>
 
 
@@ -148,7 +159,7 @@
 
           <div class="best__content">
             <div class="best__item">
-              <span class="best__title--name">chair</span>
+              <span class="best__title--name chair__name">chair</span>
             </div>
           </div>
 
@@ -191,8 +202,17 @@
                 <li><i class="fa-solid fa-star"></i></li>
                 <li><i class="fa-solid fa-star"></i></li>
               </ul>
-              <img src="/images/Group1.png" alt="chair">
-              <!-- <button type="button">$392 <i class="fa-solid fa-circle-plus"></i></button>             -->
+              <!-- <img src="/images/Group1.png" alt="chair"> -->
+             
+           <div class="best__price">
+  <div class="best__price--price">
+    <span><span class="dolar">$</span>392</span>
+  </div>
+  <button type="button" class="price-btn">
+   <i class="fa-solid fa-plus"></i>
+  </button>
+</div>
+             
 
             </div>
           </div>
@@ -210,8 +230,16 @@
                 <li><i class="fa-solid fa-star"></i></li>
                 <li><i class="fa-solid fa-star"></i></li>
               </ul>
-              <img src="/images/Group2.png" alt="chair">
-              <!-- <button type="button">$299 <i class="fa-solid fa-circle-plus"></i></button>             -->
+<div class="best__price">
+  <div class="best__price--price">
+    <span><span class="dolar">$</span>299</span>
+  </div>
+  <button type="button" class="price-btn">
+    <i class="fa-solid fa-plus"></i>
+  </button>
+</div>
+
+             
 
             </div>
           </div>
@@ -230,8 +258,16 @@
                 <li><i class="fa-solid fa-star"></i></li>
                 <li><i class="fa-solid fa-star"></i></li>
               </ul>
-              <img src="/images/Group3.png" alt="chair">
-              <!-- <button type="button">$519 <i class="fa-solid fa-circle-plus"></i></button>             -->
+              <!--<img src="/images/Group3.png" alt="chair">-->
+              <div class="best__price">
+  <div class="best__price--price">
+    <span><span class="dolar">$</span>519</span>
+  </div>
+  <button type="button" class="price-btn">
+    <i class="fa-solid fa-plus"></i>
+  </button>
+</div>
+           
 
             </div>
           </div>
@@ -251,8 +287,15 @@
                 <li><i class="fa-solid fa-star"></i></li>
                 <li><i class="fa-solid fa-star"></i></li>
               </ul>
-              <img src="/images/Group4.png" alt="chair">
-              <!-- <button type="button">$921 <i class="fa-solid fa-circle-plus"></i></button>   -->
+               <div class="best__price">
+  <div class="best__price--price">
+    <span><span class="dolar">$</span>921</span>
+  </div>
+  <button type="button" class="price-btn">
+    <i class="fa-solid fa-plus"></i>
+  </button>
+</div>
+
 
 
             </div>
@@ -265,6 +308,13 @@
         </div>
       </section>
 
+
+
+      
+
+
+
+      
 
     </main>
     <footer>
