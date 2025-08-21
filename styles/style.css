@@ -563,14 +563,7 @@ opacity: 1;
   width: 84px;
   height: 45px;
   border-radius: 32px;
-
-
-gap: 10px;
-padding: 4px;
-
-
   gap: 10px;
-  opacity: 1;
   padding: 4px;
   background-color: #FFFFFF;
 
@@ -583,9 +576,6 @@ padding: 4px;
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  padding: 20px;
-  
-
 }
 
 /*
@@ -610,21 +600,23 @@ padding: 4px;
   font-size: 18px;
   line-height: 185%;
   letter-spacing: 0%;
-}
+  }
 
 
 .best__products--item{
-   display: flex;
+  display: flex;
   justify-content: center;
   text-align: center;  
-  /* width: 348px; */
-  height: 57px;
-  border-radius: 44px;
+  max-width:348px;
+  width: 100%;
+  max-height:57px;
+  height: 100%;
   padding: 6px;
- 
+  margin: 0 auto;
   margin-top: 40px;
   gap: 0 px;
   border: none;
+  border-radius: 44px;
   }
 
 .best__price,
@@ -657,11 +649,10 @@ text-align: center;
 }
 
 .best__card {
-  width: 268.08673095703125;
-height: 491.99993896484375;
+  width: 268px;
+height: 500px;
 top: 1775px;
 left: 121px;
-angle: 0 deg;
 opacity: 1;
 
   margin-bottom: 60px;
