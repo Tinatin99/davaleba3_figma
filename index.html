@@ -79,7 +79,7 @@
 
 
 
-    <main>
+    <main class="main">
 
 
       <section class="hero">
@@ -192,7 +192,7 @@
             
            <div class="best__products">
             <div class="best__card">
-              <img src="./images/chair1.png" alt="chair1">
+              <img class="img_chair" src="./images/chair1.png" alt="chair1">
               <span class="best__price">chair</span>
               <h3 class="best__name"> Sakarias Armchair</h3>
                <ul class="best__stars">
@@ -220,7 +220,7 @@
 
            <div class="best__products">
             <div class="best__card">
-              <img src="./images/chair2.jpg" alt="chair2">
+              <img class="img_chair" src="./images/chair2.jpg" alt="chair2">
               <span class="best__price">chair</span>
               <h3 class="best__name">Baltsar Chair</h3>
               <ul class="best__stars">
@@ -248,7 +248,7 @@
 
            <div class="best__products">
             <div class="best__card">
-              <img src="./images/chair-03@2x.jpg" alt="chair3">
+              <img class="img_chair" src="./images/chair-03@2x.jpg" alt="chair3">
               <span class="best__price">chair</span>
               <h3 class="best__name">Anjay Chair</h3>
                <ul class="best__stars">
@@ -277,7 +277,7 @@
 
            <div class="best__products">
             <div class="best__card">
-              <img src="./images/chair-04@2x.jpg" alt="chair4">
+              <img class="img_chair" src="./images/chair-04@2x.jpg" alt="chair4">
               <span class="best__price">chair</span>
               <h3 class="best__name">Nyantuy Chair</h3>
               <ul class="best__stars">
@@ -302,25 +302,220 @@
           </div>
          </div>
 
+         <div class="view-all-wrapper">
+  <a class="main__link info" href="index.html">
+    View All
+    <img class="vector" src="images/Vector.png" alt="">
+  </a>
+</div>
+
 
 
 
         </div>
       </section>
 
-
-
-      
-
-
-
-      
-
     </main>
     <footer>
 
 
 
+<footer class="footer">
+  <div class="footer__container">
+    
+    <div class="footer__brand">
+      <h2 class="footer_h2">Panto</h2>
+      <p class="footer__brand__text">
+        The advantage of hiring a workspace with us 
+        is that it gives you comfortable service 
+        and all-around facilities.
+      </p>
+    </div>
+
+    <div class="footer__links--services">
+      <h3 class="footer_h3">Services</h3>
+      <ul class="footer_ul">
+        <li class="Footer_li"><a class="footer_a" href="#">Email Marketing</a></li>
+        <li class="Footer_li"><a href="#">Campaigns</a></li>
+        <li class="footer_li"><a href="#">Branding</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__links--furniture">
+      <h3 class="footer_h3">Furniture</h3>
+      <ul class="footer_ul">
+        <li class="footer_li"><a href="#">Beds</a></li>
+        <li class="footer_li"><a href="#">Chair</a></li>
+        <li class="footer_li"><a href="#">All</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__bottom-wrapper">
+    <p class="copyright">Copyright © 2021</p>
+    <div class="footer__bottom">
+      <a class="terms" href="#">Terms & Conditions</a>
+      <a class="Privacy" href="#">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+
     </footer>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+.footer {
+  background-color: #2D2F33; 
+  /* padding: 60px 80px; */
+  width: 100%;
+  
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 783px;
+  height: 146px;
+  margin-top: 118px;
+  margin-left: 188px;
+  margin-right: 469px;
+  margin-bottom: 198px;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 146px;
+  margin-top: 118px;
+  margin-left: 188px;
+  margin-bottom: 198px;
+  margin-right: 959px;
+  gap: 40px;
+}
+
+.footer_h2 {
+  font-size: 22px;
+  margin-bottom: 40px;
+  background: #0000;
+  max-width:78px;
+  max-height: 35px;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.footer__links--services{
+  max-width:133px;
+  max-height: 146px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 198px;
+  margin-right:686px;
+  margin-top: 118px;
+  margin-left: 621px;
+  gap: 20px;
+
+
+}
+
+.footer__links--furniture{
+  max-width:133px;
+  max-height: 146px;
+  width: 100%;
+  height: 100%;
+  margin-top: 118px;
+  margin-left: 621px;
+  margin-bottom: 198px;
+  margin-right: 469px;
+  gap: 20px;
+
+
+}
+
+.footer_h3 {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #f7941d;
+}
+
+.footer_ul {
+  list-style: none;
+  padding: 0;
+  gap: 40px;
+}
+
+.footer_li {
+  margin-bottom: 10px;
+  gap: 40px;
+}
+
+.footer_a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-size: 14px;
+}
+
+
+.footer__brand__text{
+  text-align: start;
+  width: 293px;
+  height: 72px;
+  font-family: 'Gilroy-Medium' sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.footer__bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items:start;
+  /* border-top: 1px solid #333;
+  padding-top: 20px; */
+  width: 100%;
+  max-width: 1064px; 
+  /* margin: 0 auto; */
+  margin-top: 382px;
+  margin-left: 188px;
+  margin-bottom: 56px;
+  margin-right: 188px;
+}
+
+.footer__bottom {
+  display: flex;
+  gap: 30px; 
+}
+
+.terms, .Privacy,
+.copyright{
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 13px;
+  text-align: start;
+}
+.copyright{
+  margin-top: 40px;
+  margin-right: 550px;
+}
+
+
+
+ -->
