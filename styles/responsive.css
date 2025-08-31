@@ -91,7 +91,10 @@
 
 
 @media only screen and (min-width: 425px) and (max-width: 490px){
-
+ .hero__wrapper {
+        background: url(../images/hero-1.svg) no-repeat center / cover;
+ }
+  
   .header__nav__list{
     display: none; 
       }
@@ -643,34 +646,34 @@
 /* --- 315px - 425px --- */
 @media only screen and (min-width: 315px) and (max-width: 425px) {
   .hero__wrapper {
-    background: url("../images/Rectangle\ 1441.jpg") no-repeat center/cover;
+    background: url("../images/hero-1.svg") no-repeat center/cover;
   }
 }
 
 /* --- 426px - 490px --- */
 @media only screen and (min-width: 426px) and (max-width: 490px) {
   .hero__wrapper {
-    background: url("../images/Rectangle\ 1441@2x.jpg") no-repeat center/cover;
+    background: url("../images/hero-1.svg") no-repeat center/cover;
   }
 }
 
 /* --- 491px - 768px --- */
 @media only screen and (min-width: 491px) and (max-width: 768px) {
   .hero__wrapper {
-    background: url("../images/Rectangle\ 1441@2x.jpg") no-repeat center/cover;
+    background: url("../images/hero-1.svg") no-repeat center/cover;
   }
 }
 
 /* --- 769px - 950px --- */
 @media only screen and (min-width: 769px) and (max-width: 950px) {
   .hero__wrapper {
-    background: url("../images/Rectangle\ 1441@2x.jpg")no-repeat center/cover;
+    background: url("../images/hero-1.svg")no-repeat center/cover;
   }
 }
 
 /* --- 951px - 1030px --- */
 @media only screen and (min-width: 951px) and (max-width: 1030px) {
   .hero__wrapper {
-    background: url("../images/Rectangle\ 1441@2x.jpg") no-repeat center/cover;
+    background: url("../images/hero-1.svg") no-repeat center/cover;
   }
 }
